@@ -7,14 +7,14 @@ html {
     -ms-overflow-style: none;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Causten';
     src: url('/assets/Font/CAUSTEN-REGULAR.OTF') format('opentype');
 }
 
 body {
     font-family: 'Causten', sans-serif;
-}
+} */
 
 .nila-primary {
     color: #a36c29;
@@ -22,6 +22,16 @@ body {
 
 .banner-section{
     margin-top: 50px;
+}
+
+.banner-button{
+    background-color: black;
+    color: white;
+    border: 3px solid #a36c29;
+    font-weight: 600;
+    border-radius: 24px;
+    padding: 5px 30px;
+    font-size: 20px;
 }
 
 /* MOBILE DESIGN START */
@@ -61,16 +71,6 @@ body {
         font-size: 3rem;
         line-height: 3rem;
     }
-    
-    .banner-button{
-        background-color: black;
-        color: white;
-        border: 3px solid #a36c29;
-        font-weight: 600;
-        border-radius: 24px;
-        padding: 5px 30px;
-        font-size: 20px;
-    }
 }
 /* TAB DESIGN END */
  
@@ -91,19 +91,9 @@ body {
     }
 
     .banner-heading{
-        font-weight: 900;
-        font-size: 6rem;
+        font-weight: 700;
+        font-size: 4rem;
         line-height: 5rem;
-    }
-    
-    .banner-button{
-        background-color: black;
-        color: white;
-        border: 3px solid #a36c29;
-        font-weight: 600;
-        border-radius: 24px;
-        padding: 5px 30px;
-        font-size: 20px;
     }
 }
 /* SYSTEM DESIGN END */
