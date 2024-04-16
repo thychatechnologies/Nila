@@ -70,6 +70,10 @@ body {
     .why-choose-bottle{
         max-height: 525px;
     }
+
+    .why-choose-heading{
+        font-size: 2rem;
+    }
 }
 /* MOBILE DESIGN END */
  
