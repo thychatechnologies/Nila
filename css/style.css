@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('/assets/Font/CAUSTEN-REGULAR.OTF') format('opentype');
+}
+
+body {
+    font-family: 'Causten', sans-serif;
+}
+
+.nila-primary {
+    color: #a36c29;
+}
+
+.banner-section{
+    margin-top: 50px;
+}
+
+/* MOBILE DESIGN START */
+@media (max-width: 767px) {
+    .header-logo {
+        width: 80px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .leafs{
+        display: none;
+    }
+
+    .banner-heading{
+        font-weight: 800;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+/* MOBILE DESIGN END */
+ 
+/* TAB DESIGN START */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-logo{
+        width: 120px;
+        margin-top: 70px;
+        margin-left: 135px;
+    }
+
+    .leafs{
+        display: none;
+    }
+
+    .banner-heading{
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    .banner-button{
+        background-color: black;
+        color: white;
+        border: 3px solid #a36c29;
+        font-weight: 600;
+        border-radius: 24px;
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+}
+/* TAB DESIGN END */
+ 
+/* SYSTEM DESIGN START */
+@media (min-width: 1025px) {
+    .header-logo{
+        width: 150px;
+        margin-top: 70px;
+        margin-left: 135px;
+    }
+
+    .leaf{
+        width:155px;
+    }
+
+    .leaf-left{
+        margin-top: 100px;
+    }
+
+    .banner-heading{
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    
+    .banner-button{
+        background-color: black;
+        color: white;
+        border: 3px solid #a36c29;
+        font-weight: 600;
+        border-radius: 24px;
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+}
+/* SYSTEM DESIGN END */
