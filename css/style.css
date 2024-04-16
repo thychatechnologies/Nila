@@ -9,7 +9,7 @@ html {
 
 @font-face {
     font-family: 'Causten';
-    src: url('./assets/Font/CAUSTEN-REGULAR.OTF') format('opentype');
+    src: url('/assets/Font/CAUSTEN-REGULAR.OTF') format('opentype');
 }
 
 body {
