@@ -10,11 +10,12 @@ html {
 /* @font-face {
     font-family: 'Causten';
     src: url('/assets/Font/CAUSTEN-REGULAR.OTF') format('opentype');
-}
+} */
 
 body {
-    font-family: 'Causten', sans-serif;
-} */
+    margin: 0;
+    padding: 0;
+}
 
 .nila-primary {
     color: #a36c29;
@@ -23,6 +24,10 @@ body {
 .banner-section{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.why-choose-section{
+    padding-bottom: 100px;
 }
 
 .banner-button{
@@ -49,6 +54,15 @@ body {
     max-height: 600px;
 }
 
+.specialities-heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.spec-img{
+    width: 80px;
+}
+
 /* MOBILE DESIGN START */
 @media (max-width: 767px) {
     .header-logo {
@@ -69,6 +83,7 @@ body {
 
     .why-choose-bottle{
         max-height: 525px;
+        margin-top: 55px;
     }
 
     .why-choose-heading{
@@ -121,6 +136,10 @@ body {
         font-weight: 700;
         font-size: 4rem;
         line-height: 5rem;
+    }
+
+    .spec-div{
+        padding: 50px;
     }
 }
 /* SYSTEM DESIGN END */
