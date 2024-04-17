@@ -162,6 +162,10 @@ body {
     .htu-description{
         font-size: 1.2rem;
     }
+
+    .man-oil-section,.woman-oil-section{
+        padding-bottom:50px;
+    }
 }
 /* TAB DESIGN END */
  
