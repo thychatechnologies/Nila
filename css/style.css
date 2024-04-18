@@ -72,7 +72,7 @@ body {
 }
 
 .product-icon{
-    max-width: 7rem;
+    max-width: 14rem;
 }
 
 .brand-story-heading{
@@ -105,6 +105,14 @@ body {
 
     .why-choose-heading{
         font-size: 2rem;
+    }
+
+    .why-choose-img-default{
+        display: block;
+    }
+
+    .why-choose-img-tab{
+        display: none;
     }
 
     .women-oil-leaf{
@@ -141,6 +149,14 @@ body {
         line-height: 3rem;
     }
 
+    .why-choose-img-default{
+        display: none;
+    }
+
+    .why-choose-img-tab{
+        display: block;
+    }
+
     .why-choose-heading{
         font-size: 2.7rem;
     }
@@ -161,10 +177,6 @@ body {
 
     .htu-description{
         font-size: 1.2rem;
-    }
-
-    .man-oil-section,.woman-oil-section{
-        padding-bottom:50px;
     }
 }
 /* TAB DESIGN END */
@@ -195,16 +207,22 @@ body {
         padding: 50px;
     }
 
+    .why-choose-img-default{
+        display: block;
+    }
+
+    .why-choose-img-tab{
+        display: none;
+    }
+
     .htu-heading{
-        font-size: 9rem;
+        font-size: 2.5rem;
         font-weight: 700;
-        opacity: 40%;
     }
 
     .htu-sub-heading{
-        font-size: 6rem;
+        font-size: 4rem;
         font-weight: 700;
-        opacity: 40%;
     }
 
     .htu-description{
